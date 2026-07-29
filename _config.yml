@@ -21,8 +21,8 @@
 title: WikiPathways - SANDBOX
 tagline: A community curated pathway database
 description: WikiPathways is a community curated pathway database dedicated to open science.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sandbox.wikipathways.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sandbox-wp.gh.io" # this fork is served as project pages, not at an apex domain
+url: "https://marvinm2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wikipathways
 mastodon_username: wikipathways
 github_username: wikipathways
