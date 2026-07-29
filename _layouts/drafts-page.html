@@ -27,7 +27,7 @@ layout: default
       {% assign realname = site.authors | where: "username", auth | map: "realname" | first  %}
       {% unless blocked_authors contains realname %}
         {% capture thisAuth %}
-          <a href="{{site.url}}/authors/{{auth}}.html" title="View author profile">{{ realname }}</a>
+          <a href="{{ site.baseurl }}/authors/{{auth}}.html" title="View author profile">{{ realname }}</a>
         {% endcapture %}
         {% assign authList = authList | push: thisAuth %}
         {% assign authListCite = authListCite | push: realname %}
@@ -265,7 +265,7 @@ layout: default
 <h2 id="organism">Organisms</h2>
     {% for org in site.organisms %}
     {% if page.organisms contains org.latin %}
-    <a class="btn btn-sm btn-pill btn-organism" href="{{org.url}}">{{org.latin}}</a>
+    <a class="btn btn-sm btn-pill btn-organism" href="{{ org.url | relative_url }}">{{org.latin}}</a>
     {% endif %}
     {% endfor %}
 
@@ -279,7 +279,7 @@ layout: default
 </h2>
     {% for com in site.communities %}
     {% if page.communities contains com.community-tag %}
-    <a class="btn btn-sm btn-pill btn-community" href="{{com.url}}">{{com.display-name}}</a>
+    <a class="btn btn-sm btn-pill btn-community" href="{{ com.url | relative_url }}">{{com.display-name}}</a>
     {% endif %}
     {% endfor %}
 
