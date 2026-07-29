@@ -31,7 +31,7 @@ layout: default
         {% if annot-values contains page.value %}
           <div class="col-sm-auto">
             <div class="card" style="width: 10rem;">
-              <a class="card-link" href="{{ pw.url }}">
+              <a class="card-link" href="{{ pw.url | relative_url }}">
               <img class="card-img-top" loading="lazy" src="{{ site.baseurl }}/assets/img/{{pw.wpid}}/{{pw.wpid}}-thumb.png" alt="{{ pw.title }}">
               <div class="card-body">
                 <p class="card-text">{{ pw.title }} <em>({{ pw.organisms.first }})</em></p>
@@ -50,7 +50,7 @@ layout: default
         {% for pw in sorted_pathways %}
           {% assign annot-values= pw.annotations | where: "type", page.type | map: "parent" %}
           {% if annot-values contains page.value %}
-              <li><a href="{{ pw.url }}">{{ pw.title }} - {{pw.wpid}} <em>({{ pw.organisms.first }})</em></a></li>
+              <li><a href="{{ pw.url | relative_url }}">{{ pw.title }} - {{pw.wpid}} <em>({{ pw.organisms.first }})</em></a></li>
           {% endif %}
         {% endfor %}
       </ul>
