@@ -23,13 +23,22 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "Ensembl:ENSG00000169047",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000169047",
+        "IRS1",
+        "Ensembl:ENSG00000169047",
+        "Entrez Gene:3667",
+        "HGNC:IRS1",
+        "UniProt:P35568"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
       "x": 111,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000169047",
       "y": 216.5,
       "zIndex": 32768
     },
@@ -259,7 +268,7 @@
       "f1260",
       "deb0a"
     ],
-    "dataSourceVersion": "WP0001_r20260730105043",
+    "dataSourceVersion": "WP0001_r20260730105907",
     "displayName": "demo",
     "drawAs": "rect",
     "fill": "white",

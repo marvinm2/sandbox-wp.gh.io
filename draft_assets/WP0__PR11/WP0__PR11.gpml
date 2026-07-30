@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway Author="[SidraAdil]" xmlns="http://pathvisio.org/GPML/2013a" Name="Insulin signaling (demo)" Version="WP0001_r20260730105043" Organism="Homo sapiens">
+<Pathway Author="[SidraAdil]" xmlns="http://pathvisio.org/GPML/2013a" Name="Insulin signaling (demo)" Version="WP0001_r20260730105907" Organism="Homo sapiens">
   <Graphics BoardWidth="511.0" BoardHeight="576.5" />
   <DataNode TextLabel="IRS1" GraphId="b486f" Type="GeneProduct">
     <Graphics CenterX="156.0" CenterY="229.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
-    <Xref Database="" ID="" />
+    <Xref Database="Ensembl" ID="ENSG00000169047" />
   </DataNode>
   <DataNode TextLabel="INS" GraphId="f1260" Type="GeneProduct">
     <Graphics CenterX="156.0" CenterY="82.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />

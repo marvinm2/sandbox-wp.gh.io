@@ -442,12 +442,12 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="pvjsgeneratedidf1262-path" d="M156,164.5L156,216.5" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="b486f" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="IRS1" transform="translate(111,216.5)">
+    <a id="b486f" class="SingleFreeNode DataNode Ensembl_ENSG00000169047 GeneProduct CompactIdentifier_ensembl_ENSG00000169047 IRS1 Entrez_Gene_3667 HGNC_IRS1 UniProt_P35568" color="#000000" name="IRS1" transform="translate(111,216.5)" xlink:href="https://bioregistry.io/ensembl:ENSG00000169047" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="b486f-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="b486f-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">IRS1</tspan>
       </text>
-    </g>
+    </a>
     <a id="f1260" class="SingleFreeNode DataNode Ensembl_ENSG00000254647 GeneProduct CompactIdentifier_ensembl_ENSG00000254647 INS Entrez_Gene_3630 HGNC_INS UniProt_C9JNR5 UniProt_I3WAC9 UniProt_A6XGL2 UniProt_P01308" color="#000000" name="INS" transform="translate(111,69.5)" xlink:href="https://bioregistry.io/ensembl:ENSG00000254647" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="f1260-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="f1260-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
