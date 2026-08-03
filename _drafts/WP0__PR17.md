@@ -1,0 +1,42 @@
+---
+annotations: []
+authors:
+- marvinm2
+citedin: ''
+communities: []
+description: Insulin binds the insulin receptor INSR at the cell surface, which autophosphorylates
+  and then recruits and phosphorylates the adaptor protein IRS1. Phosphorylated IRS1
+  acts as the docking platform that propagates the signal onward to downstream metabolic
+  effectors. This demonstration pathway covers only that proximal receptor-to-adaptor
+  segment.
+last-edited: 2026-08-03
+ndex: null
+organisms:
+- Homo sapiens
+redirect_from:
+- /index.php/Pathway:WP0__PR17
+- /instance/WP0__PR17
+- /instance/WP0__PR17_r20260803154519
+revision: r20260803154519
+schema-jsonld:
+- '@context': https://schema.org/
+  '@id': https://wikipathways.github.io/pathways/WP0__PR17.html
+  '@type': Dataset
+  creator:
+    '@type': Organization
+    name: WikiPathways
+  description: Insulin binds the insulin receptor INSR at the cell surface, which
+    autophosphorylates and then recruits and phosphorylates the adaptor protein IRS1.
+    Phosphorylated IRS1 acts as the docking platform that propagates the signal onward
+    to downstream metabolic effectors. This demonstration pathway covers only that
+    proximal receptor-to-adaptor segment.
+  keywords:
+  - INS
+  - INSR
+  - IRS1
+  license: CC0
+  name: Insulin signaling (demo)
+seo: CreativeWork
+title: Insulin signaling (demo)
+wpid: WP0__PR17
+---
