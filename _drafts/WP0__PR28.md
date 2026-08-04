@@ -13,8 +13,8 @@ organisms:
 redirect_from:
 - /index.php/Pathway:WP0__PR28
 - /instance/WP0__PR28
-- /instance/WP0__PR28_r20260804114523
-revision: r20260804114523
+- /instance/WP0__PR28_r20260804115622
+revision: r20260804115622
 schema-jsonld:
 - '@context': https://schema.org/
   '@id': https://wikipathways.github.io/pathways/WP0__PR28.html
@@ -27,6 +27,7 @@ schema-jsonld:
   keywords:
   - INS
   - INSR
+  - IRS1
   license: CC0
   name: Insulin signaling (demo)
 seo: CreativeWork

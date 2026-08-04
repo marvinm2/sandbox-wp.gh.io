@@ -1,5 +1,17 @@
 {
   "entitiesById": {
+    "publicationXrefref1": {
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefref1",
+      "standardName": "IRS proteins and the common path to diabetes",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:12829793"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12829793"
+    },
     "pvjsgeneratedida01": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -109,13 +121,22 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "Ensembl:ENSG00000169047",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000169047",
+        "IRS1",
+        "Ensembl:ENSG00000169047",
+        "Entrez Gene:3667",
+        "HGNC:IRS1",
+        "UniProt:P35568"
       ],
       "verticalAlign": "top",
       "whiteSpace": "pre",
       "width": 120,
       "wpType": "GeneProduct",
       "x": 180,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000169047",
       "y": 303
     },
     "pvjsgeneratedida04": {
@@ -196,7 +217,7 @@
       "pvjsgeneratedida04",
       "pvjsgeneratedida05"
     ],
-    "dataSourceVersion": "WP0001_r20260804114523",
+    "dataSourceVersion": "WP0001_r20260804115622",
     "displayName": "demo",
     "drawAs": "rect",
     "fill": "white",
