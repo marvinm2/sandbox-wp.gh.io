@@ -4,14 +4,14 @@ annotations:
   parent: classic metabolic pathway
   type: Pathway Ontology
   value: fatty acid degradation pathway
-- id: PW:0000738
-  parent: classic metabolic pathway
-  type: Pathway Ontology
-  value: fatty acid beta degradation pathway
 - id: DOID:3146
   parent: genetic disease
   type: Disease Ontology
   value: lipid metabolism disorder
+- id: PW:0000738
+  parent: classic metabolic pathway
+  type: Pathway Ontology
+  value: fatty acid beta degradation pathway
 - id: PW:0000058
   parent: classic metabolic pathway
   type: Pathway Ontology
@@ -32,8 +32,8 @@ organisms:
 redirect_from:
 - /index.php/Pathway:WP0__PR36
 - /instance/WP0__PR36
-- /instance/WP0__PR36_r20260806140440
-revision: r20260806140440
+- /instance/WP0__PR36_r20260806141600
+revision: r20260806141600
 schema-jsonld:
 - '@context': https://schema.org/
   '@id': https://wikipathways.github.io/pathways/WP0__PR36.html
@@ -54,11 +54,13 @@ schema-jsonld:
   - (S)-3-Hydroxyoctanoyl-CoA
   - (S)-3-Hydroxytetradecanoyl-CoA
   - (S)-3-hydroxydodecanoyl-coenzyme A
+  - (S)-Hydroxyhexanoyl-CoA
   - 2-oxotetradecanoic acid
   - 2-trans-4-cis-decadienoyl-CoA
   - 2-trans-dodecenoyl-CoA
   - 3-Oxo-octanoyl-CoA
   - 3-Oxohexanoyl-CoA
+  - 3-Oxooctanoyl-CoA
   - 3-Oxopalmitoyl-CoA
   - 3-oxododecanoyl-CoA
   - 3-trans-decenoyl-CoA

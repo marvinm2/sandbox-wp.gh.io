@@ -1,7 +1,9 @@
 Label	Type	Identifier	Comment	Ensembl	NCBI gene	HGNC	UniProt	Wikidata	ChEBI	InChI	PubChem	ChemSpider	HMDB	KEGG	LipidMaps
 Crotonyl-CoA	Metabolite	chebi:15473	""					wikidata:Q303169	chebi:15473	inchikey:KFWWCMJSYSSPSK-PAXLJYGASA-N	pubchem.compound:5497143	chemspider:4593713	hmdb:HMDB0002009	kegg.compound:C00877	lipidmaps:LMFA07050307
 trans,cis-Lauro-2,6-dienoyl-CoA	Metabolite	chebi:28387	""					wikidata:Q27103668	chebi:28387	inchikey:BNPQDIKRZDRREL-GQUYLXGASA-N	pubchem.compound:11966194	chemspider:10140187	hmdb:HMDB0062630;hmdb:HMDB0011123	kegg.compound:C05279	lipidmaps:LMFA07050111
+3-Oxooctanoyl-CoA	Metabolite	hmdb:HMDB03941	""					wikidata:Q82096622;wikidata:Q27103595	chebi:28264	inchikey:WPIVBCGRGVNDDT-FFJUWABQSA-N;inchikey:WPIVBCGRGVNDDT-CECATXLMSA-N	pubchem.compound:440608;pubchem.compound:11966162	chemspider:389506;chemspider:10140155	hmdb:HMDB0003941	kegg.compound:C05267	lipidmaps:LMFA07050249
 3-oxododecanoyl-CoA	Metabolite	chebi:62615	""					wikidata:Q27132045	chebi:62615	inchikey:HQANBZHVWIDNQZ-GMHMEAMDSA-J	pubchem.compound:46173506	chemspider:26332792			
+(S)-Hydroxyhexanoyl-CoA	Metabolite	chebi:28276	""					wikidata:Q27103605	chebi:28276	inchikey:VAAHKRMGOFIORX-IKTBLOROSA-N	pubchem.compound:11966160	chemspider:10140154	hmdb:HMDB0003942	kegg.compound:C05268	lipidmaps:LMFA07050156
 Fatty Acid	Metabolite	chebi:35366	""					wikidata:Q61476	chebi:35366					kegg.compound:C00162	lipidmaps:LMFA01010000
 4-cis-Decenoyl-CoA	Metabolite	hmdb:HMDB02145	""					wikidata:Q27109958;wikidata:Q76386913	chebi:29140	inchikey:QTOYQSMKQWCWOX-SGUJYKCESA-N;inchikey:QTOYQSMKQWCWOX-CCVVLBLYSA-N	pubchem.compound:6443609;pubchem.compound:24883430	chemspider:21864928;chemspider:4947585	hmdb:HMDB0002145		lipidmaps:LMFA07050301
 Octanoyl-CoA	Metabolite	hmdb:HMDB01070	""					wikidata:Q3348796	chebi:15533	inchikey:KQMZYOXOBSXMII-UHFFFAOYSA-N	pubchem.compound:380	chemspider:21232035;chemspider:21232550;chemspider:371	hmdb:HMDB0001070	kegg.compound:C01944	

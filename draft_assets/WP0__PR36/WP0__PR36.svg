@@ -1167,24 +1167,24 @@
         <tspan x="0" y="0">Unsaturated fatty acids</tspan>
       </text>
     </g>
-    <g id="bd94e" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="3-Oxocanoyl-CoA" transform="translate(1576,956.7333333333333)">
+    <a id="bd94e" class="SingleFreeNode DataNode HMDB_HMDB03941 Metabolite CompactIdentifier_hmdb_HMDB03941 _-Oxooctanoyl-CoA Wikidata_Q82096622 Wikidata_Q27103595 ChEBI_28264 InChI_WPIVBCGRGVNDDT-FFJUWABQSA-N InChI_WPIVBCGRGVNDDT-CECATXLMSA-N" color="#0000ff" name="3-Oxooctanoyl-CoA" transform="translate(1576,956.7333333333333)" xlink:href="https://bioregistry.io/hmdb:HMDB03941" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19.2px" id="bd94e-icon" width="137.33333333333334px" x="0" y="0" transform="matrix(0.9927710843373494, 0, 0, 0.9504950495049505, 0.4963855421686816, 0.47524752475247567)" class="Icon"/>
       <text id="bd94e-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(68.66666666666667,13.6)">
-        <tspan x="0" y="0">3-Oxocanoyl-CoA</tspan>
+        <tspan x="0" y="0">3-Oxooctanoyl-CoA</tspan>
       </text>
-    </g>
+    </a>
     <a id="c2064" class="SingleFreeNode DataNode ChEBI_CHEBI_62615 Metabolite CompactIdentifier_chebi_62615 _-oxododecanoyl-CoA Wikidata_Q27132045 ChEBI_62615 InChI_HQANBZHVWIDNQZ-GMHMEAMDSA-J" color="#0000ff" name="3-oxododecanoyl-CoA" transform="translate(1210.8666666666666,929.4)" xlink:href="https://bioregistry.io/chebi:62615" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19.2px" id="c2064-icon" width="174.93333333333334px" x="0" y="0" transform="matrix(0.9943160287987874, 0, 0, 0.9504950495049505, 0.497158014399389, 0.47524752475247567)" class="Icon"/>
       <text id="c2064-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(87.46666666666667,13.6)">
         <tspan x="0" y="0">3-oxododecanoyl-CoA</tspan>
       </text>
     </a>
-    <g id="c4afe" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="(S)-Hydrocyhexanoyl" transform="translate(940.1333333333333,1453.7333333333333)">
+    <a id="c4afe" class="SingleFreeNode DataNode ChEBI_CHEBI_28276 Metabolite CompactIdentifier_chebi_28276 _S_-Hydroxyhexanoyl-CoA Wikidata_Q27103605 ChEBI_28276 InChI_VAAHKRMGOFIORX-IKTBLOROSA-N" color="#0000ff" name="(S)-Hydroxyhexanoyl-CoA" transform="translate(940.1333333333333,1453.7333333333333)" xlink:href="https://bioregistry.io/chebi:28276" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19.2px" id="c4afe-icon" width="163.73333333333332px" x="0" y="0" transform="matrix(0.9939295831647107, 0, 0, 0.9504950495049505, 0.4969647915823572, 0.47524752475247567)" class="Icon"/>
       <text id="c4afe-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(81.86666666666666,13.6)">
-        <tspan x="0" y="0">(S)-Hydrocyhexanoyl</tspan>
+        <tspan x="0" y="0">(S)-Hydroxyhexanoyl-CoA</tspan>
       </text>
-    </g>
+    </a>
     <a id="c66df" class="SingleFreeNode DataNode ChEBI_CHEBI_35366 Metabolite CompactIdentifier_chebi_35366 Fatty_Acid Wikidata_Q61476 ChEBI_35366" color="#0000ff" name="Fatty Acid" transform="translate(332,663.0878092708334)" xlink:href="https://bioregistry.io/chebi:35366" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19.2px" id="c66df-icon" width="81.33333333333333px" x="0" y="0" transform="matrix(0.9878542510121457, 0, 0, 0.9504950495049505, 0.493927125506076, 0.47524752475247567)" class="Icon"/>
       <text id="c66df-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40.666666666666664,13.6)">
