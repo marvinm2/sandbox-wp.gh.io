@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Pathway Author="[mkutmon]" xmlns="http://pathvisio.org/GPML/2013a" Name="Testing Upload New Pathway" Version="WP0001_r20260813161947" Organism="Homo sapiens">
+  <Graphics BoardWidth="380.0" BoardHeight="330.5" />
+  <DataNode TextLabel="Substrate" GraphId="a7199" Type="Metabolite">
+    <Graphics CenterX="125.0" CenterY="288.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Product" GraphId="bf8bb" Type="Metabolite">
+    <Graphics CenterX="305.0" CenterY="288.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" Color="0000ff" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Catalyst" GraphId="d09ec" Type="GeneProduct">
+    <Graphics CenterX="215.0" CenterY="238.0" Width="90.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="170.0" Y="288.0" GraphRef="a7199" RelX="1.0" RelY="0.0" />
+      <Point X="260.0" Y="288.0" GraphRef="bf8bb" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+      <Anchor Position="0.5" Shape="None" GraphId="d7689" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="215.0" Y="250.5" GraphRef="d09ec" RelX="0.0" RelY="1.0" />
+      <Point X="215.0" Y="288.0" GraphRef="d7689" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+</Pathway>
