@@ -1,0 +1,52 @@
+---
+annotations:
+- id: PW:0000013
+  parent: disease pathway
+  type: Pathway Ontology
+  value: disease pathway
+- id: DOID:0080600
+  parent: disease by infectious agent
+  type: Disease Ontology
+  value: COVID-19
+authors:
+- Egonw
+citedin: ''
+communities: []
+description: This pathway captures the finding of Saud et al. that it is the virion
+  membrane that is an active participant in the cellular uptake of the SARS-CoV-2
+  virion. Results show the lipid composition of the virion membrane to resembled that
+  of human cell organel membranes, rather than the cell membrane itself.
+last-edited: 2026-08-13
+ndex: null
+organisms:
+- Homo sapiens
+redirect_from:
+- /index.php/Pathway:WP0__PR37
+- /instance/WP0__PR37
+- /instance/WP0__PR37_r20260813082819
+revision: r20260813082819
+schema-jsonld:
+- '@context': https://schema.org/
+  '@id': https://wikipathways.github.io/pathways/WP0__PR37.html
+  '@type': Dataset
+  creator:
+    '@type': Organization
+    name: WikiPathways
+  description: This pathway captures the finding of Saud et al. that it is the virion
+    membrane that is an active participant in the cellular uptake of the SARS-CoV-2
+    virion. Results show the lipid composition of the virion membrane to resembled
+    that of human cell organel membranes, rather than the cell membrane itself.
+  keywords:
+  - AXL
+  - Phospholipids
+  - cholesterol
+  - phosphatidyl-L-serine
+  - phosphatidyl-ethanolamine
+  - procoagulantaminophospholipid
+  - sphingolipids
+  license: CC0
+  name: SARS-CoV-2 envelope lipid composition and human cell binding
+seo: CreativeWork
+title: SARS-CoV-2 envelope lipid composition and human cell binding
+wpid: WP0__PR37
+---
