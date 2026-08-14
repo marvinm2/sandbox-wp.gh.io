@@ -1,18 +1,6 @@
 {
   "entitiesById": {
-    "publicationXrefref1": {
-      "gpmlElementName": "PublicationXref",
-      "id": "publicationXrefref1",
-      "standardName": "IRS proteins and the common path to diabetes",
-      "textContent": "1",
-      "type": [
-        "PublicationXref",
-        "PubMed:12829793"
-      ],
-      "xrefDataSource": "PubMed",
-      "xrefIdentifier": "12829793"
-    },
-    "pvjsgeneratedida01": {
+    "b1a2c": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -21,7 +9,7 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 34,
-      "id": "pvjsgeneratedida01",
+      "id": "b1a2c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -56,7 +44,7 @@
       "xrefIdentifier": "ENSG00000254647",
       "y": 63
     },
-    "pvjsgeneratedida02": {
+    "c3d4e": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -65,7 +53,7 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 34,
-      "id": "pvjsgeneratedida02",
+      "id": "c3d4e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -98,7 +86,7 @@
       "xrefIdentifier": "ENSG00000171105",
       "y": 183
     },
-    "pvjsgeneratedida03": {
+    "d5e6f": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -107,7 +95,7 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 34,
-      "id": "pvjsgeneratedida03",
+      "id": "d5e6f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -139,19 +127,53 @@
       "xrefIdentifier": "ENSG00000169047",
       "y": 303
     },
-    "pvjsgeneratedida04": {
+    "ia001": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
-      "id": "pvjsgeneratedida04",
+      "id": "ia001",
+      "isAttachedTo": [
+        "b1a2c",
+        "c3d4e"
+      ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
+      "markerEnd": "MimBinding",
       "points": [
         {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "b1a2c",
+          "orientation": [
+            0,
+            1
+          ],
           "x": 240,
           "y": 97
         },
         {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "c3d4e",
+          "orientation": [
+            0,
+            1
+          ],
           "x": 240,
           "y": 183
         }
@@ -160,26 +182,57 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ]
+        "Edge"
+      ],
+      "zIndex": 12288
     },
-    "pvjsgeneratedida05": {
+    "ia002": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
-      "id": "pvjsgeneratedida05",
+      "id": "ia002",
+      "isAttachedTo": [
+        "c3d4e",
+        "d5e6f"
+      ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
+      "markerEnd": "MimConversion",
       "points": [
         {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "c3d4e",
+          "orientation": [
+            0,
+            1
+          ],
           "x": 240,
           "y": 217
         },
         {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "d5e6f",
+          "orientation": [
+            0,
+            1
+          ],
           "x": 240,
           "y": 303
         }
@@ -188,12 +241,26 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ]
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "publicationXrefref1": {
+      "authors": [
+        "White MF"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefref1",
+      "source": "J Clin Invest",
+      "standardName": "IRS proteins and the common path to diabetes",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:12829793"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12829793",
+      "year": 2003
     }
   },
   "pathway": {
@@ -206,18 +273,18 @@
     "author": "[mmarvinm2]",
     "comments": [
       {
-        "content": "Demo pathway: insulin (INS) activates its receptor INSR, which signals through IRS1.",
+        "content": "Insulin (INS) binds and activates the insulin receptor INSR, which in turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream metabolic and mitogenic signalling in human cells.",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
-      "pvjsgeneratedida01",
-      "pvjsgeneratedida02",
-      "pvjsgeneratedida03",
-      "pvjsgeneratedida04",
-      "pvjsgeneratedida05"
+      "ia001",
+      "ia002",
+      "b1a2c",
+      "c3d4e",
+      "d5e6f"
     ],
-    "dataSourceVersion": "WP0001_r20260814085526",
+    "dataSourceVersion": "WP0001_r20260814093636",
     "displayName": "Insulin signaling pipeline verification 2026-08-14",
     "drawAs": "rect",
     "fill": "white",

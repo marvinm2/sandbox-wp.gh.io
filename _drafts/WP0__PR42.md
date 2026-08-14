@@ -4,8 +4,9 @@ authors:
 - mmarvinm2
 citedin: ''
 communities: []
-description: 'Demo pathway: insulin (INS) activates its receptor INSR, which signals
-  through IRS1.'
+description: Insulin (INS) binds and activates the insulin receptor INSR, which in
+  turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream
+  metabolic and mitogenic signalling in human cells.
 last-edited: 2026-08-14
 ndex: null
 organisms:
@@ -13,8 +14,8 @@ organisms:
 redirect_from:
 - /index.php/Pathway:WP0__PR42
 - /instance/WP0__PR42
-- /instance/WP0__PR42_r20260814085526
-revision: r20260814085526
+- /instance/WP0__PR42_r20260814093636
+revision: r20260814093636
 schema-jsonld:
 - '@context': https://schema.org/
   '@id': https://wikipathways.github.io/pathways/WP0__PR42.html
@@ -22,8 +23,9 @@ schema-jsonld:
   creator:
     '@type': Organization
     name: WikiPathways
-  description: 'Demo pathway: insulin (INS) activates its receptor INSR, which signals
-    through IRS1.'
+  description: Insulin (INS) binds and activates the insulin receptor INSR, which
+    in turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream
+    metabolic and mitogenic signalling in human cells.
   keywords:
   - INS
   - INSR

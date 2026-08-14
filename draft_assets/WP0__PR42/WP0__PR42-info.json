@@ -1,10 +1,10 @@
 {
     "wpid": "WP0__PR42",
     "organisms": ["Homo sapiens"],
-    "description": "Demo pathway: insulin (INS) activates its receptor INSR, which signals through IRS1.",
+    "description": "Insulin (INS) binds and activates the insulin receptor INSR, which in turn phosphorylates insulin receptor substrate 1 (IRS1) to propagate downstream metabolic and mitogenic signalling in human cells.",
     "ontology-ids": [],
     "last-edited": "2026-08-14",
     "title": "Insulin signaling pipeline verification 2026-08-14",
     "authors": ["mmarvinm2"],
-    "revision": "r20260814085526"
+    "revision": "r20260814093636"
 }
