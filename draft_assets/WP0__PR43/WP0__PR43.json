@@ -1,0 +1,177 @@
+{
+  "entitiesById": {
+    "c58ef": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 274.88286479250337,
+      "id": "c58ef",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "GeneProduct",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "GeneProduct"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 334.15662650602394,
+      "wpType": "GeneProduct",
+      "x": 497.16867469879537,
+      "y": 152.15863453815257,
+      "zIndex": 32768
+    },
+    "c8ef9": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 250.78647925033465,
+      "id": "c8ef9",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#3955e7",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Metabolite",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Metabolite"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 253.83534136546186,
+      "wpType": "Metabolite",
+      "x": 191.9477911646586,
+      "y": 144.1265060240964,
+      "zIndex": 32768
+    },
+    "dd167": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "dd167",
+      "isAttachedTo": [
+        "c8ef9",
+        "c58ef"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimConversion",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "id": "c8b46",
+          "isAttachedTo": "c8ef9",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 445.7831325301205,
+          "y": 269.5197456492637
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "id": "bd26c",
+          "isAttachedTo": "c58ef",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 497.16867469879537,
+          "y": 289.60006693440425
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP0__PR43/"
+      }
+    ],
+    "author": "[traybug23]",
+    "comments": [
+      {
+        "source": "WikiPathways-description"
+      }
+    ],
+    "contains": [
+      "dd167",
+      "c8ef9",
+      "c58ef"
+    ],
+    "dataSourceVersion": "WP0001_r20260815222024",
+    "displayName": "sneha test",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 673.9089692101744,
+    "id": "WP0__PR43",
+    "kaavioType": "Group",
+    "name": "sneha test",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "PR43",
+    "standardName": "sneha test",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "textContent": "Name: sneha test\nOrganism: Homo sapiens",
+    "type": [
+      "Pathway"
+    ],
+    "verticalAlign": "top",
+    "width": 904.1633199464526,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}
